@@ -308,5 +308,16 @@ $(document).on('ready', function() {
 });
 
 
+// Built in functions in JS are called "methods"
+Number('5');    // 5
+
+let notes = ['do', 're', 'mi'];
+notes.push('fa');   // adds to the end
+notes.pop();        // removes from end
+notes.shift();      // removes from beginning
+notes.unshift();    //adds to beginning
+notes.join(', ')    // joins array elements with a comma and space between each
+notes.split(', ')   // splits array elements any time it sees comma space
+
 
 
